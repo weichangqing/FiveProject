@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="background_color">#E6E0D4</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#63b3e1</color>
+    <color name="normal_background">#DFDFDF</color>
+    <color name="half_trans">#80000000</color>
+    <color name="black">#000000</color>
+    <color name="setting_text_color">#403f3f</color>
+    <color name="main_title_bar_bg">#E5D5BB</color>
+    <color name="list_item_bg_color_normal">#fff8f8f8</color>
+    <color name="list_item_bg_color_selector">#fff0f0f0</color>
+	<color name="theme_color_title_text">#ffffFFFF</color>
+	<color name="theme_color_title_btn">#f4687e</color>
+	
+	<color name="color_e7e7e7">#e7e7e7</color>
+	<color name="main_title_bg">#53cd94</color>
+	<color name="main_left_bg">#413f44</color>
+	<color name="main_content_bg">#efefef</color>
+	
+	<color name="color_444444">#444444</color>
+	<color name="color_6c6c6c">#6c6c6c</color>
+	<color name="color_333333">#333333</color>
+	<color name="color_d3d3d3">#d3d3d3</color>
+	<color name="color_626262">#626262</color>
+	<color name="color_a8a8a8">#a8a8a8</color>
+	<color name="color_46b380">#46b380</color>
+	<color name="color_aeaeae">#aeaeae</color>
+	<color name="color_525252">#525252</color>
+	<color name="color_b0bcca">#b0bcca</color>
+	<color name="color_413f44">#413f44</color>
+	<color name="color_747474">#747474</color>
+	<color name="color_c1c1c1">#c1c1c1</color>
+	<color name="color_b0b0b0">#b0b0b0</color>
+	
+</resources>

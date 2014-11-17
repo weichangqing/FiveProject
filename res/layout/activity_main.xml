@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/single_view_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="单图" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/double_view_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="双图" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/round_view_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="原型图" />
+
+    <Button
+        android:id="@+id/line_view_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="折线图" />
+     <Button
+        android:id="@+id/line_new_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="UI" />
+      <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="UI" />
+
+    <LinearLayout
+        android:id="@+id/barview_content"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
