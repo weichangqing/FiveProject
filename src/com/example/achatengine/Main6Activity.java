@@ -16,9 +16,9 @@ public class Main6Activity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         layoutViewContent = (LinearLayout) findViewById(R.id.barview_content);
-        // view = new BarChartView(MainActivity.this, isSingleView);
+        view = new BarChartView(MainActivity.this, isSingleView);
         view = new BudgetDoughnutChart();
-        // view.initData(first, second, options, "双柱状图");
+        view.initData(first, second, options, "双柱状图");
         layoutViewContent.setBackgroundColor(0xffffffff);
         layoutViewContent.addView(view.getDoughnutChartView(Main6Activity.this));
     }
