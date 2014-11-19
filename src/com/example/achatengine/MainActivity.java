@@ -61,7 +61,7 @@ public class MainActivity extends Activity implements OnClickListener {
             isSingleView = true;
             layoutViewContent.removeAllViews();
             view = new BarChartView(MainActivity.this, isSingleView);
-            view.initData(first, second, options, "444444");
+            view.initData(first, second, options, "334444");
             layoutViewContent.addView(view.getBarChartView());
             break;
         case R.id.double_view_btn:
