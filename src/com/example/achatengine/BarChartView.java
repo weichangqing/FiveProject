@@ -47,7 +47,7 @@ public class BarChartView {
 
     public View getBarChartView() {
         buildBarRenderer();
-        setChartSettings(renderer, mTitle, "", "", 0, 10, 0, 80, Color.BLACK, Color.LTGRAY);
+        setChartSettings(renderer, mTitle, "", "dfafdafdadfa", 0, 10, 0, 80, Color.BLACK, Color.LTGRAY);
         renderer.getSeriesRendererAt(0).setDisplayChartValues(true);
         if (!isSingleView) {
             renderer.getSeriesRendererAt(1).setDisplayChartValues(true);
