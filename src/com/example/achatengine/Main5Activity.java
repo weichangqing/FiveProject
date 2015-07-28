@@ -31,6 +31,7 @@ public class Main5Activity extends FragmentActivity implements OnClickListener {
         ll1.setOnClickListener(this);
         ll2.setOnClickListener(this);
         ll3.setOnClickListener(this);
+        System.out.print("aaaaaaaaaaa");
         fragmentManager = this.getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         ContentFragment1 fragmentcontent = new ContentFragment1();
