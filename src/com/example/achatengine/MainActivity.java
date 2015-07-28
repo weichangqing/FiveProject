@@ -38,7 +38,7 @@ public class MainActivity extends Activity implements OnClickListener {
         layoutViewContent = (LinearLayout) findViewById(R.id.barview_content);
         view = new BarChartView(MainActivity.this, isSingleView);
         view.initData(first, second, options, "单柱形");
-        System.out.print("==============");
+        System.out.print("我是第二次修改哦，亲");
         layoutViewContent.setBackgroundColor(0xffffffff);
         layoutViewContent.addView(view.getBarChartView());
         btn_single = (Button) findViewById(R.id.single_view_btn);
